@@ -1,14 +1,14 @@
-# Proyecto de Minería de Datos: Diabetes
+# Proyecto de Minería de Datos: Clasificación de Diabetes
 
-Aplicación académica de clasificación con el conjunto Pima Indians Diabetes Database.
+**Autor:** REINALDO JOSE HOYOS RAMIREZ
 
-## Archivos
-- `app.py`: aplicación Streamlit.
-- `modelo_diabetes_b64.py`: modelo serializado en Base64 para cargarlo en la aplicación.
-- `requirements.txt`: dependencias.
+Aplicación académica con el conjunto Pima Indians Diabetes Database.
 
-## Ejecución
+## Ejecución local
 `pip install -r requirements.txt`
 `streamlit run app.py`
 
-El notebook reproducible se entrega como archivo descargable separado. Uso exclusivamente académico; no diagnostica ni sustituye valoración profesional.
+## Despliegue
+En Streamlit Community Cloud conecta este repositorio, selecciona `main` y `app.py` como archivo principal.
+
+Uso exclusivamente académico. No diagnostica ni sustituye valoración profesional.
