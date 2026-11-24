@@ -1,0 +1,26 @@
+{
+  "accuracy": 0.7467532467532467,
+  "precision_class_1": 0.6190476190476191,
+  "recall_class_1": 0.7222222222222222,
+  "f1_class_1": 0.6666666666666666,
+  "confusion_matrix": [
+    [
+      76,
+      24
+    ],
+    [
+      15,
+      39
+    ]
+  ],
+  "best_cv_f1": 0.6762538730634683,
+  "best_params": {
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": 6,
+    "min_samples_leaf": 20
+  },
+  "train_rows": 614,
+  "test_rows": 154,
+  "random_state": 42
+}
